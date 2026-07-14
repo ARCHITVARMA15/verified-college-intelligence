@@ -41,6 +41,30 @@ CetPilot will never scrape, parse or verify source documents directly. VCIE owns
                        CetPilot
 ```
 
+## Layered Architecture
+
+VCIE is organized into five layers. Each layer owns a single responsibility and depends only on layers below it.
+
+### 1. Domain Layer
+
+Contains pure TypeScript interfaces, enums and type aliases in `src/domain/`. This layer defines the language of the business and has no dependencies on databases, frameworks or external services. See [Database.md](./Database.md) for the full model.
+
+### 2. Repository Layer
+
+Will be responsible for persistence. Repositories translate between domain entities and the chosen storage technology. In the current phase only the MongoDB connection manager exists; schemas and repositories are future work.
+
+### 3. Service Layer
+
+Will implement business workflows such as source discovery, document download scheduling, extraction orchestration and verification. Services use repositories and domain types but contain no HTTP or worker infrastructure code.
+
+### 4. Worker Layer
+
+Will execute background jobs defined by the `Job` domain entity. Workers consume jobs from a queue and call services to perform download, processing or verification tasks. This keeps heavy I/O and CPU work out of the request/response path.
+
+### 5. API Layer
+
+The Express-based HTTP surface. Controllers in this layer receive requests, delegate to services and return standardized responses. The API layer does not contain business rules; it only adapts between HTTP and domain objects.
+
 ## Future Modules
 
 ### 1. Crawler
