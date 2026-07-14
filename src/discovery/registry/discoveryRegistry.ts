@@ -1,4 +1,4 @@
-import type { College } from '../../domain/college.js';
+import type { CollegeIdentity } from '../../registry/models/collegeIdentity.js';
 import type { DiscoveryStrategy } from '../interfaces/discoveryStrategy.js';
 import type { CandidateSource } from '../types/candidateSource.js';
 
@@ -39,7 +39,7 @@ export class DiscoveryRegistry {
    * Executes every registered strategy that supports the given college.
    * Returns a map from strategy name to its discovered candidate sources.
    */
-  async executeAll(college: College): Promise<Map<string, CandidateSource[]>> {
+  async executeAll(college: CollegeIdentity): Promise<Map<string, CandidateSource[]>> {
     const results = new Map<string, CandidateSource[]>();
 
     for (const [name, strategy] of this.strategies.entries()) {

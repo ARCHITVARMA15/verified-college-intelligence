@@ -1,18 +1,24 @@
 import { describe, it, expect } from 'vitest';
-import type { College } from '../../domain/college.js';
+import type { CollegeIdentity } from '../../registry/models/collegeIdentity.js';
+import { CollegeStatus } from '../../registry/models/collegeStatus.js';
 import { DocumentType, SourceType } from '../../domain/enums.js';
 import { OfficialWebsiteStrategy } from './officialWebsiteStrategy.js';
 
-const createCollege = (overrides?: Partial<College>): College => ({
+const createCollege = (overrides?: Partial<CollegeIdentity>): CollegeIdentity => ({
   id: 'college-1',
-  name: 'Test College of Engineering',
+  officialName: 'Test College of Engineering',
+  shortName: 'TCE',
+  aliases: [],
+  knownDomains: ['tce.edu.in'],
   city: 'Pune',
   district: 'Pune',
   state: 'Maharashtra',
   officialWebsite: 'https://tce.edu.in',
+  university: 'Test University',
   collegeType: 'private',
   autonomous: true,
-  nbaAccredited: true,
+  knownKeywords: [],
+  status: CollegeStatus.ACTIVE,
   createdAt: new Date('2024-01-01'),
   updatedAt: new Date('2024-01-01'),
   ...overrides,

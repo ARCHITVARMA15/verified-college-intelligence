@@ -1,17 +1,41 @@
 # VCIE Discovery Framework
 
-The discovery framework finds candidate sources for a college without downloading or parsing any documents. It is designed to be pluggable so that new discovery strategies can be added without changing existing code.
+The discovery framework finds candidate sources for a college. It is designed to be pluggable so that new discovery strategies can be added without changing existing code.
 
 ## Why Discovery Exists
 
 Before VCIE can verify college data, it must know where official documents live. Discovery answers that question by returning structured metadata about potential sources: URLs, document types, confidence levels and years. The actual download and extraction happen in later modules.
+
+## Real Discovery Workflow
+
+The first real strategy, `OfficialWebsiteDiscoveryStrategy`, demonstrates the production workflow:
+
+1. Read the canonical `CollegeIdentity` from the College Registry.
+2. Fetch the college homepage HTML using Axios.
+3. Parse anchor tags with Cheerio.
+4. Resolve relative URLs against the homepage URL.
+5. Normalize URLs and remove duplicates.
+6. Keep links whose text or URL matches curated keywords such as `placement`, `nirf`, `naac`, `annual report`, `downloads` and `pdf`.
+7. Assign a confidence score to each candidate:
+   - **HIGH** — URL ends with `.pdf`.
+   - **MEDIUM** — Internal official page on the college domain.
+   - **LOW** — External domain that is not a direct PDF link.
+8. Return in-memory `CandidateSource` objects.
+
+This strategy currently supports only DJSCE. Run it with:
+
+```bash
+npm run discover:djsce
+```
+
+Results are written to `output/djsce-discovery.json`.
 
 ## Strategy Pattern
 
 Each discovery strategy implements the `DiscoveryStrategy` interface:
 
 - `getName()` — returns a unique strategy name.
-- `supports(college)` — decides whether the strategy applies to the given college.
+- `supports(college)` — decides whether the strategy applies to the given `CollegeIdentity`.
 - `discover(college)` — returns an array of `CandidateSource` objects.
 
 Strategies are registered in a `DiscoveryRegistry`. The registry executes every supporting strategy and hands the combined output to `DiscoveryService` for normalization.
@@ -19,9 +43,9 @@ Strategies are registered in a `DiscoveryRegistry`. The registry executes every 
 ## Execution Flow
 
 ```
-+-------------+     supports()      +------------------+
-|   College   | --------------------> | DiscoveryStrategy |
-+-------------+                     +------------------+
++-------------------+     supports()      +------------------+
+| CollegeIdentity   | --------------------> | DiscoveryStrategy |
++-------------------+                     +------------------+
                                            |
                                            | discover()
                                            v
@@ -102,11 +126,12 @@ No existing file needs to change.
 
 Candidate sources are grouped by their normalized URL. When multiple strategies discover the same URL, the candidate with the highest confidence is kept. This avoids processing the same document more than once while preserving the strongest provenance information.
 
-## Mock Strategies
+## Strategies
 
-The current implementation includes two mock strategies that return synthetic URLs:
+The current implementation includes:
 
-- `OfficialWebsiteStrategy` — produces candidates for the official website, training & placement page and admissions page.
-- `NirfStrategy` — produces candidates for NIRF ranking and report PDF pages.
+- `OfficialWebsiteDiscoveryStrategy` — real Axios/Cheerio strategy for DJSCE that parses the homepage and returns keyword-matched candidate sources.
+- `OfficialWebsiteStrategy` — mock strategy that produces synthetic candidates for the official website, training & placement page and admissions page.
+- `NirfStrategy` — mock strategy that produces synthetic candidates for NIRF ranking and report PDF pages.
 
-These strategies do not access the internet and exist only to validate the framework.
+Mock strategies do not access the internet and exist only to validate the framework.

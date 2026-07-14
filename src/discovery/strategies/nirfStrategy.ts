@@ -1,4 +1,4 @@
-import type { College } from '../../domain/college.js';
+import type { CollegeIdentity } from '../../registry/models/collegeIdentity.js';
 import { Confidence, DocumentType, SourceType } from '../../domain/enums.js';
 import type { DiscoveryStrategy } from '../interfaces/discoveryStrategy.js';
 import type { CandidateSource } from '../types/candidateSource.js';
@@ -12,12 +12,12 @@ export class NirfStrategy implements DiscoveryStrategy {
     return 'NirfStrategy';
   }
 
-  supports(_college: College): boolean {
+  supports(_college: CollegeIdentity): boolean {
     return true;
   }
 
-  async discover(college: College): Promise<CandidateSource[]> {
-    const normalizedName = this.slugify(college.name);
+  async discover(college: CollegeIdentity): Promise<CandidateSource[]> {
+    const normalizedName = this.slugify(college.officialName);
     const baseUrl = 'https://mock-nirf.example.com';
 
     return [

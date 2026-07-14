@@ -1,4 +1,4 @@
-import type { College } from '../../domain/college.js';
+import type { CollegeIdentity } from '../../registry/models/collegeIdentity.js';
 import { Confidence, DocumentType, SourceType } from '../../domain/enums.js';
 import type { DiscoveryStrategy } from '../interfaces/discoveryStrategy.js';
 import type { CandidateSource } from '../types/candidateSource.js';
@@ -12,12 +12,13 @@ export class OfficialWebsiteStrategy implements DiscoveryStrategy {
     return 'OfficialWebsiteStrategy';
   }
 
-  supports(_college: College): boolean {
+  supports(_college: CollegeIdentity): boolean {
     return true;
   }
 
-  async discover(college: College): Promise<CandidateSource[]> {
-    const baseUrl = college.officialWebsite ?? `https://${this.slugify(college.name)}.edu.in`;
+  async discover(college: CollegeIdentity): Promise<CandidateSource[]> {
+    const baseUrl =
+      college.officialWebsite ?? `https://${this.slugify(college.officialName)}.edu.in`;
 
     return [
       this.createCandidate(college, 'Official Website', `${baseUrl}/`, DocumentType.BROCHURE),
@@ -41,7 +42,7 @@ export class OfficialWebsiteStrategy implements DiscoveryStrategy {
   }
 
   private createCandidate(
-    college: College,
+    college: CollegeIdentity,
     title: string,
     url: string,
     documentType: DocumentType,

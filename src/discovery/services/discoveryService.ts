@@ -1,4 +1,4 @@
-import type { College } from '../../domain/college.js';
+import type { CollegeIdentity } from '../../registry/models/collegeIdentity.js';
 import { Confidence } from '../../domain/enums.js';
 import type { DiscoveryRegistry } from '../registry/discoveryRegistry.js';
 import type { CandidateSource } from '../types/candidateSource.js';
@@ -27,7 +27,7 @@ export class DiscoveryService {
    * Runs discovery for a college, merges duplicate candidate sources by URL,
    * sorts them by descending confidence and returns the aggregated result.
    */
-  async discover(college: College): Promise<DiscoveryResult> {
+  async discover(college: CollegeIdentity): Promise<DiscoveryResult> {
     const startedAt = new Date();
     const errors: DiscoveryError[] = [];
     let candidateSources: CandidateSource[] = [];
