@@ -1,0 +1,205 @@
+{
+  "college": "Dwarkadas J. Sanghvi College of Engineering",
+  "documents": [
+    {
+      "title": "Best Practises",
+      "type": "NAAC",
+      "url": "https://www.djsce.ac.in/docs/naac/7.2.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/naac.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Institutional Distinctiveness",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/176_Down_Institute%20Distinctiveness.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Office & Administrative Staff",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Office%20staff%20members.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-1.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Departmental Non-Teaching Staff",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/dept_staff.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-2.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Documents Required",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/List%20%20of%20Documents.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-3.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Cancellation Policy",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Rules%20of%20Refund.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-4.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Fee Structure",
+      "type": "ADMISSION",
+      "url": "https://www.djsce.ac.in/docs/DSE%20Fee%20Structure%202025-26.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/admission.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Document Required",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/List%20of%20documents_.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-5.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Cancellation Policy",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Rules%20of%20Refund%20-%20DSE.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-6.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Ethics Commitee",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Committees/Ethics%20Committee%202024-25.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-7.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Ph.D Students",
+      "type": "NAAC",
+      "url": "https://www.djsce.ac.in/docs/naac/PhD%20Details_New.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/naac-1.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Research Assessment Commitees",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Committees/research%20committe%2024-25.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-8.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Conferences",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/About%20Conferences%20new.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-9.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Academic Calendar - Odd Sem - 2026-27 - Sem  III, V & VII",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Academics/Academic%20Calendar%20-%20Odd%20Sem%20-%202026-27%20-%20Sem%20%20III,%20V%20and%20VII.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-10.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Academic schedule of A.Y. 2026-27 (Odd Sem)",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Academics/Academic%20Semester%20Schedule%20-%20Odd%20Sem%20-%202026-27.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-11.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Patents",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Academics/Patents%20published%20by%20DJSCE%20faculty%20members%20in%20last%203%20years.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-12.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Design Registration",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Academics/Design%20Registrations%20by%20DJSCE%20faculty%20members%20in%20last%203%20years.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-13.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Course Outcome",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/Academics/2_6_1_COURSE_OUTCOMES.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-14.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Exam Annual report - A.Y. 2024-25",
+      "type": "ANNUAL_REPORT",
+      "url": "https://www.djsce.ac.in/docs/Academics/2_6_3_1_Exam-Annual-Report-AY2024-25.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/annual-report.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Exam Application documents",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/exams/DJSCPE%20Application%20Format.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-15.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Exam Manual",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/exams/Exam%20Manual%20with%20sign.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-16.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "NSDL web portal",
+      "type": "OTHER",
+      "url": "https://www.djsce.ac.in/docs/74_Down_NSDL%20University%20Notice.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/other-17.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Second Year",
+      "type": "ADMISSION",
+      "url": "https://www.djsce.ac.in/docs/Fee%20Structure/SE%20Fee%20structure.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/admission-1.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Third Year",
+      "type": "ADMISSION",
+      "url": "https://www.djsce.ac.in/docs/Fee%20Structure/TE%20Fee%20structure.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/admission-2.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Final Year",
+      "type": "ADMISSION",
+      "url": "https://www.djsce.ac.in/docs/Fee%20Structure/Final%20Year%20Fee%20Structure.pdf",
+      "localPath": "data/colleges/djsce-mumbai/documents/admission-3.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    }
+  ]
+}

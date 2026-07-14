@@ -1,0 +1,205 @@
+{
+  "college": "Veermata Jijabai Technological Institute",
+  "documents": [
+    {
+      "title": "ARIIA",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2024/05/210907_ARI-C-33641-2021-submitted-report.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Civil Engineering",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/05/DCS_Civil-Engineering.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-1.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Electronics Engineering",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/05/DCS_-Electronics-Engineering.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-2.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Advertisement for the positions of Project Associate and Project Data Associate under the IKS Raja-Kosa Project",
+      "type": "PLACEMENT",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/07/iks-recruitment-advertisement.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/placement.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Walk-In Interview for System Engineer post in IT-Infrastructure Department",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/07/advertise-for-COE-CNDS-post-of-System-Engineer.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-3.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "The list of shortlisted candidates for the Post of Tenure faculty positions",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/07/Shortlisted-candidates-list-for-tenure-faculty-July-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-4.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Advertisement for the Walk-In Interviews for Adhoc Faculty Positions",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/07/Walk-in-Interviews-for-Adhoc-Faculty-Positions-July-2026-03-07-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-5.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Applications Invited for the post of “ Junior Research Fellow(JRF) and Senior Research Fellow (SRF)\" under CoE CNDS, VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/06/Advertisment-for-Post-of_JRF_SRF_23_June_2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-6.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Applications Invited for the post of “ Project Research Assistant (PRA)\" under CoE CNDS, VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/06/Advertisment-for-Post-of_PRA_23_June-_2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-7.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Shortlisted Candidates List & Interview/Written Test Schedule for Tenure Faculty Positions (3 Years Tenure Basis) - June 2026",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/06/Shortlisted-Candidates-List-InterviewWritten-Test-Schedule-for-Tenure-Faculty-Positions-3-Years-Tenure-Basis-June-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-8.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Corrigendum- Extension of last date for submission of application for the post of Tenure Faculty",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/06/Corrigendum-Extension-of-last-date-for-submission-of-application-for-the-post-of-Tenure-Faculty-19-06-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-9.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Extended Date 15th June 2026:  Applications Invited for the post of “ Project Research Scientist (PRS)\" under CoE CNDS, VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/06/Extension-Advertisment-for-Post-of_PRS-_May-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-10.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Extended Date 15th June 2026: Applications Invited for the post of “ Project Research Scientist (PRS)/ Project Research Assistant (PRA)\" under CoE CNDS, VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/06/Extension-Advertisment-for-Post-of_PRS_PRA_-May-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-11.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "ADVERTISEMENT FOR THE POSTS of TENURE FACULTY (3 Years tenure)",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/05/Advertisement-for-Tenure-Faculty-May-2026.pdf.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-12.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Applications Invited for the post of “ Project Research Scientist (PRS)/ Project Research Assistant (PRA)\" under CoE CNDS, VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/05/Advertisment-for-Post-of_PRS_PRA_-May-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-13.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Applications Invited for the post of “ Project Research Scientist (PRS)\" under CoE CNDS, VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/05/Advertisment-for-Post-of_PRS-_May-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-14.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Advertisement for the Matron-Girl's Hostel",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/05/Matron-Girls-Hostel.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-15.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Advertisement for the post of Professor of Practice",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/05/Professor-of-Practice.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-16.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Advertisement for the Appointment of Chartered Accountant Firm as Internal Auditor for FY 2026-27 in VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/05/Advertisement-for-Internal-Auditor-2026-27.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-17.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Applications open for Cohort 7 - VJTI TBI Foundation - Please Apply by 17 April 2026",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/03/COHORT-7-VJTI-TBI.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-18.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Walk-In Interview For The Post Of 'Counsellor For Students, Faculty And Staff'",
+      "type": "PLACEMENT",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/04/Counsellor-Recruitment-2026-07-04-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/placement-1.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Applications Invited for the post of “ Junior Research Fellow (JRF) for Drone Technology Under Sponsored Project at CoE CNDS, VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/03/Advertisement-for-Inviting-Application-for-the-Post-of_JRF__March_Drone-Technology.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-19.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Advertisement for the post of “Project Research Scientist (PRS)\" under CoE CNDS, VJTI",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/02/Advertisment-for-Post-of_PRS-_Feb-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-20.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Walk-In Interviews for various posts in IT-Infrastructure Department",
+      "type": "OTHER",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/02/Advertisement-Walk-in-Interviews-For-Various-Posts-in-IT-Infrastructure-Department-09-02-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/other-21.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Walk-In Interview For Adhoc Faculty & Teaching Assistant Recruitment in Computer Engineering & IT Department",
+      "type": "PLACEMENT",
+      "url": "https://vjti.ac.in/wp-content/uploads/2026/02/WALK-IN-INTERVIEW-FOR-ADHOC-FACULTY-TEACHING-ASSISTANT-RECRUITMENT-06-02-2026.pdf",
+      "localPath": "data/colleges/vjti-mumbai/documents/placement-2.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    }
+  ]
+}

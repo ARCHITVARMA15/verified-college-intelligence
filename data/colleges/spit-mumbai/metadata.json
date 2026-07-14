@@ -1,0 +1,205 @@
+{
+  "college": "Sardar Patel Institute of Technology",
+  "documents": [
+    {
+      "title": "Documents Collection",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2021/09/Doc_collection_process.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other.pdf",
+      "extension": "pdf",
+      "downloaded": false
+    },
+    {
+      "title": "Student's Council",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2024/11/Student_Council.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-1.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Anti Ragging Notification",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2021/07/Ragging-UGC-27-June-2019.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-2.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Examination Manual",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2024/11/Final_23-24_Exam_Manual_25th_Jan.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-3.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Two-Day Online Faculty Development Programme (FDP) On Effective Implementation of Outcome Based Education 12th June to 13th June, 2026",
+      "type": "NAAC",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2026/06/FDP_Brochure_OBE_IQAC_SP_IT_NITTTR.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/naac.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "RFP for Appointment of Liaison Consultant Architect for SPCE-SPIT Hostel Project",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2026/05/RFP_Liaison_Consultant_Architect_SPCE_Hostel-140526.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-4.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "RFP for Appointment of Project Management Consultant for SPCE-SPIT Hostel Project",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2026/05/RFP_Project_Management_Consultant_SPCE_Hostel-140526.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-5.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Corrigendum Regarding RFP for Appointment of PMC and LCA",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2026/05/Corrigendum-RFQ-date-extension-for-PMC-and-LCA-260526.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-6.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Housekeeping Services Tender 2026",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2026/05/HK-Services-Tender-2026-1-1.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-7.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Security Tender 2026",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2026/05/Tender-Security-2026-1-1.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-8.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Academic Calendar_ODD_2026-27NEW",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2026/04/Academic-Calendar_ODD_2026-27.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-9.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "EoI for Architectural Consultancy – Hostel Construction",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/11/NOTICE-INVITING-ARCHITECTURAL-DESIGN-CONSULTANCY-OFFERS.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-10.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Expression of Interest for Architectural Consultancy",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/11/Expression-of-Interest-for-Architectural-Consultancy.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-11.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Extract of Form 5A PF-SPIT",
+      "type": "OTHER",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/10/Extract-of-Form-5A-PF-SPIT.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/other-12.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "MCA – FRA Approved Fee Notice 2025-26",
+      "type": "ADMISSION",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/10/MCA_FRA-Approved-Fee-Notice-2025-26.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/admission.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "M.Tech – FRA Approved Fee Notice 2025-26",
+      "type": "ADMISSION",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/10/M.Tech_._FRA-Approved-Fee-Notice-2025-26.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/admission-1.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "B.Tech – FRA Approved Fee Notice 2025-26",
+      "type": "ADMISSION",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/10/B.Tech_._FRA-Fee-Approved-Notice-2025-26.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/admission-2.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "NIRF 2025 – Submitted Data Report (Overall)",
+      "type": "NIRF",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/02/NIRF_2025_Overall.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/nirf.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "NIRF 2025 – Submitted Data Report (Innovation)",
+      "type": "NIRF",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/02/NIRF_2025_Innovation.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/nirf-1.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "NIRF 2025 – Submitted Data_Report (Engineering)",
+      "type": "NIRF",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/02/NIRF_2025_Engineering.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/nirf-2.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Faculty Information",
+      "type": "NIRF",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2025/03/Faculty_Information_NIRF_2025.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/nirf-3.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "NIRF 2024 – Submitted Data Report (Overall)",
+      "type": "NIRF",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2024/02/IR-O-C-33773_Report.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/nirf-4.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "NIRF 2024 – Submitted Data Report (Innovation)",
+      "type": "NIRF",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2024/02/IR-I-C-33773_Report.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/nirf-5.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "NIRF 2024 – Submitted Data_Report (Engineering)",
+      "type": "NIRF",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2024/02/IR-E-C-33773_Report.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/nirf-6.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    },
+    {
+      "title": "NIRF Ranking 2024",
+      "type": "NIRF",
+      "url": "https://www.spit.ac.in/wp-content/uploads/2024/08/NIRF-Ranking-2024.pdf",
+      "localPath": "data/colleges/spit-mumbai/documents/nirf-7.pdf",
+      "extension": "pdf",
+      "downloaded": true
+    }
+  ]
+}

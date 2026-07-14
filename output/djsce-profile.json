@@ -1,0 +1,76 @@
+{
+  "college": "Dwarkadas J. Sanghvi College of Engineering",
+  "placements": {},
+  "rankings": {},
+  "accreditation": {
+    "nba": {
+      "value": true,
+      "context": "NBA",
+      "confidence": "HIGH",
+      "reason": "Matched NBA accreditation mention",
+      "sourceUrl": "https://www.djsce.ac.in/docs/176_Down_Institute%20Distinctiveness.pdf",
+      "sourceFile": "data/colleges/djsce-mumbai/documents/other.pdf"
+    },
+    "naac": {
+      "value": "A",
+      "context": "NAAC",
+      "confidence": "HIGH",
+      "reason": "Matched NAAC accreditation mention",
+      "sourceUrl": "https://www.djsce.ac.in/docs/naac/7.2.pdf",
+      "sourceFile": "data/colleges/djsce-mumbai/documents/naac.pdf"
+    },
+    "autonomous": {
+      "value": true,
+      "context": "autonomous",
+      "confidence": "HIGH",
+      "reason": "Matched autonomous status mention",
+      "sourceUrl": "https://www.djsce.ac.in/docs/exams/Exam%20Manual%20with%20sign.pdf",
+      "sourceFile": "data/colleges/djsce-mumbai/documents/other-16.pdf"
+    },
+    "aicte": {
+      "value": true,
+      "context": "AICTE",
+      "confidence": "HIGH",
+      "reason": "Matched AICTE mention",
+      "sourceUrl": "https://www.djsce.ac.in/docs/naac/7.2.pdf",
+      "sourceFile": "data/colleges/djsce-mumbai/documents/naac.pdf"
+    }
+  },
+  "recruiters": {
+    "value": [],
+    "confidence": "LOW",
+    "reason": "No recruiter list found in discovered documents",
+    "sourceUrl": "",
+    "sourceFile": ""
+  },
+  "metadata": {
+    "sourceFiles": [
+      "data/colleges/djsce-mumbai/documents/naac.pdf",
+      "data/colleges/djsce-mumbai/documents/other.pdf",
+      "data/colleges/djsce-mumbai/documents/other-1.pdf",
+      "data/colleges/djsce-mumbai/documents/other-2.pdf",
+      "data/colleges/djsce-mumbai/documents/other-3.pdf",
+      "data/colleges/djsce-mumbai/documents/other-4.pdf",
+      "data/colleges/djsce-mumbai/documents/admission.pdf",
+      "data/colleges/djsce-mumbai/documents/other-5.pdf",
+      "data/colleges/djsce-mumbai/documents/other-6.pdf",
+      "data/colleges/djsce-mumbai/documents/other-7.pdf",
+      "data/colleges/djsce-mumbai/documents/naac-1.pdf",
+      "data/colleges/djsce-mumbai/documents/other-8.pdf",
+      "data/colleges/djsce-mumbai/documents/other-9.pdf",
+      "data/colleges/djsce-mumbai/documents/other-10.pdf",
+      "data/colleges/djsce-mumbai/documents/other-11.pdf",
+      "data/colleges/djsce-mumbai/documents/other-12.pdf",
+      "data/colleges/djsce-mumbai/documents/other-13.pdf",
+      "data/colleges/djsce-mumbai/documents/other-14.pdf",
+      "data/colleges/djsce-mumbai/documents/annual-report.pdf",
+      "data/colleges/djsce-mumbai/documents/other-15.pdf",
+      "data/colleges/djsce-mumbai/documents/other-16.pdf",
+      "data/colleges/djsce-mumbai/documents/other-17.pdf",
+      "data/colleges/djsce-mumbai/documents/admission-1.pdf",
+      "data/colleges/djsce-mumbai/documents/admission-2.pdf",
+      "data/colleges/djsce-mumbai/documents/admission-3.pdf"
+    ],
+    "extractedAt": "2026-07-14T06:38:32.053Z"
+  }
+}

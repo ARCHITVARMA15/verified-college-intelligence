@@ -1,0 +1,62 @@
+[
+  {
+    "id": "coep-pune",
+    "name": "COEP Technological University",
+    "website": "https://www.coep.org.in/",
+    "city": "Pune"
+  },
+  {
+    "id": "vjti-mumbai",
+    "name": "Veermata Jijabai Technological Institute",
+    "website": "https://vjti.ac.in/",
+    "city": "Mumbai"
+  },
+  {
+    "id": "spit-mumbai",
+    "name": "Sardar Patel Institute of Technology",
+    "website": "https://www.spit.ac.in/",
+    "city": "Mumbai"
+  },
+  {
+    "id": "djsce-mumbai",
+    "name": "Dwarkadas J. Sanghvi College of Engineering",
+    "website": "https://www.djsce.ac.in/",
+    "city": "Mumbai"
+  },
+  {
+    "id": "tsec-mumbai",
+    "name": "Thadomal Shahani Engineering College",
+    "website": "https://www.tsec.ac.in/",
+    "city": "Mumbai"
+  },
+  {
+    "id": "vesit-mumbai",
+    "name": "Vivekanand Education Society's Institute of Technology",
+    "website": "https://vesit.ves.ac.in/",
+    "city": "Mumbai"
+  },
+  {
+    "id": "kjsce-mumbai",
+    "name": "K. J. Somaiya College of Engineering",
+    "website": "https://kjsce.somaiya.edu/",
+    "city": "Mumbai"
+  },
+  {
+    "id": "pict-pune",
+    "name": "Pune Institute of Computer Technology",
+    "website": "https://pict.edu/",
+    "city": "Pune"
+  },
+  {
+    "id": "pccoe-pune",
+    "name": "Pimpri Chinchwad College of Engineering",
+    "website": "https://www.pccoepune.com/",
+    "city": "Pune"
+  },
+  {
+    "id": "wce-sangli",
+    "name": "Walchand College of Engineering",
+    "website": "https://www.walchandsangli.ac.in/",
+    "city": "Sangli"
+  }
+]
